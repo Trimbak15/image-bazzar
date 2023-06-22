@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.input {
+    border: 1px solid red;
+    padding: 1rem;
+    text-align: center;
+}
+
+.input input {
+    padding: 1rem;
+    border-radius: 50px;
+    font-size: 24px;
+}
+
+.input input::placeholder {
+    color: black;
+    text-align: center;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.input input:hover {
+    color: white;
+    background-color: rgb(104, 104, 241);
+}
+
+.input input:hover::placeholder {
+    color: white;
+}
+
+.input button {
+    padding: 1.3rem;
+    margin-left: 1.5rem;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    font-size: 24px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* photos section */
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: auto;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
